@@ -1,0 +1,3 @@
+const cipher = (str, shift) => {
+
+};
