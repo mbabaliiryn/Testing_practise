@@ -1,4 +1,4 @@
-const cipher = require('./cipher');
+const cipher = require('../code/cipher');
 
 it('Encrypts string', () => {
   expect(cipher('defend the east wall of the castle', 1))

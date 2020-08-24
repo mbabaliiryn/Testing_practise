@@ -1,4 +1,4 @@
-const Calculator = require('./calculator');
+const Calculator = require('../code/calculator');
 
 it('Add', () => expect(Calculator.add(1, 2)).toBe(3));
 
