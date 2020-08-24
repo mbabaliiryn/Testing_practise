@@ -1,11 +1,9 @@
 const Calculator = require('./calculator');
 
-const calculator = new Calculator();
+it('Add', () => expect(Calculator.add(1, 2)).toBe(3));
 
-it('Add', () => expect(calculator.add(1, 2)).toBe(3));
+it('Subtract', () => expect(Calculator.subtract(1, 2)).toBe(-1));
 
-it('Subtract', () => expect(calculator.subtract(1, 2)).toBe(-1));
+it('Divide', () => expect(Calculator.divide(4, 2)).toBe(2));
 
-it('Divide', () => expect(calculator.divide(4, 2)).toBe(2));
-
-it('Multiply', () => expect(calculator.multiply(4, 2)).toBe(8));
+it('Multiply', () => expect(Calculator.multiply(4, 2)).toBe(8));

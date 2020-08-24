@@ -1,19 +1,18 @@
 class Calculator {
-
-  add(a, b) {
+  static add(a, b) {
     return a + b;
   }
 
-  subtract(a, b) {
-      return a - b;
+  static subtract(a, b) {
+    return a - b;
   }
 
-  divide(a, b) {
-      return a / b;
+  static divide(a, b) {
+    return a / b;
   }
 
-  multiply(a, b) {
-      return a * b;
+  static multiply(a, b) {
+    return a * b;
   }
 }
 
