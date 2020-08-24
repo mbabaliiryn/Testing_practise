@@ -1,4 +1,4 @@
-const analyze = require('../code/array');
+import analyze from '../code/array';
 
 it('returns correct array summary', () => {
   expect(analyze([1, 2, 3])).toStrictEqual({

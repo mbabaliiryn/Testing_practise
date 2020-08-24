@@ -1,3 +1,4 @@
-const capitalize = require('../code/capitalise');
+import capitalize from '../code/capitalise';
 
-it('capitalize', () => expect(capitalize('microverse')).toBe('Microverse'));
+it('capitalizes "Microverse"', () => expect(capitalize('microverse')).toBe('Microverse'));
+it('capitalize "hello world', () => expect(capitalize('hello world')).toBe('Hello world'));

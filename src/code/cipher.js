@@ -28,4 +28,4 @@ const cipher = (str, shift) => {
   return shifted.join('');
 };
 
-module.exports = cipher;
+export default cipher;
